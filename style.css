@@ -1,0 +1,383 @@
+*,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+/* home.html */
+
+
+/*Header*/
+
+header {
+    color: #2DA8D8FF;
+    background-color: #2A2B2DFF;
+    border-bottom: 8px solid #D9514EFF;
+    min-height: 70px;
+    padding-bottom: 20px;
+}
+
+.head-container {
+    width: 80%;
+    padding: 50px;
+}
+
+.logo {
+    float: left;
+    margin-bottom: 10px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    float: right;
+    margin-top: 10px;
+}
+
+span,
+.highlight a {
+    color: #D9514EFF;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0px 5px 0px 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #2DA8D8FF;
+}
+
+
+/* info */
+
+#info {
+    background: url("laptop.jpg");
+    min-height: 400px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.h2 {
+    font-size: 80px;
+}
+
+
+/* form */
+
+#form {
+    background-color: #2A2B2DFF;
+    min-height: 100px;
+}
+
+.wrapper {
+    width: 90%;
+    padding: 30px;
+}
+
+.wrapper p {
+    float: left;
+    color: #D9514EFF;
+    font-size: 30px;
+}
+
+.wrapper form {
+    float: right;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+button {
+    height: 34px;
+    width: 60px;
+    border: none;
+    background-color: #D9514EFF;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* boxes */
+
+#section-boxes {
+    width: 100%;
+}
+
+.boxes {
+    display: flex;
+    padding: 50px;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.symbol {
+    font-size: 190px;
+}
+
+#html {
+    color: #E86228;
+}
+
+#css {
+    color: #2862E9;
+}
+
+#laptop {
+    color: grey;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #D9514EFF;
+}
+
+
+/* about.html about us */
+
+#about-us {
+    padding: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#about-us h2 {
+    color: #2DA8D8FF;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 100px;
+}
+
+#about-us p {
+    font-size: 19px;
+    line-height: 40px;
+    padding: 50px;
+}
+
+
+/* services.html */
+
+#help-template {
+    padding: 90px;
+    text-align: left;
+    width: 600px;
+    margin-left: 400px;
+}
+
+#help-template h4 {
+    padding: 0px 0px 10px 0px;
+    font-size: 30px;
+}
+
+#form2 {
+    padding: 10px;
+}
+
+#help-template input {
+    width: 450px;
+    margin: 6px 8px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#help-template button {
+    height: 44px
+}
+
+#help-section {
+    padding: 90px;
+    text-align: left;
+    width: 600px;
+    margin-left: 400px;
+}
+
+.help-box {
+    width: 250px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(40, 98, 233, 0.5);
+    margin: 10px;
+}
+
+.help-box-wrapper {
+    display: flex;
+}
+
+.help-box a {
+    color: black;
+}
+
+#main-para {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10px;
+    line-height: 70px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:1025px) {
+    /* header */
+    header {
+        width: 100%;
+        min-height: 70px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .head-container {
+        width: 80%;
+        padding: 50px;
+    }
+    .logo {
+        float: none;
+        font-size: 40px;
+    }
+    header nav ul {
+        float: none;
+        margin-top: 70px;
+        margin-bottom: 0px;
+        font-size: 23px;
+    }
+    /* info */
+    #info {
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+    .h2 {
+        font-size: 50px;
+    }
+    /* form */
+    .wrapper p {
+        font-size: 40px;
+    }
+    input {
+        height: 40px;
+        width: 400px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    button {
+        height: 55px;
+        width: 100px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* boxes */
+    .boxes {
+        display: flex;
+        padding: 100px;
+        font-size: 20px;
+    }
+    .box {
+        width: 30%;
+        padding: 20px;
+    }
+    .symbol {
+        font-size: 40px;
+    }
+    /* services.html */
+    #help-template {
+        padding: 20px;
+        text-align: left;
+        width: 90%;
+        margin-left: 0px;
+    }
+    #help-template h4 {
+        font-size: 40px;
+    }
+    #form2 {
+        padding: 10px;
+        width: 600px;
+        font-size: 20px;
+    }
+    #help-template input {
+        font-size: 20px;
+    }
+    #help-template button {
+        height: 50px
+    }
+    #help-section {
+        padding: 10px;
+        text-align: left;
+        width: 90%;
+        margin-left: 0px;
+        margin-bottom: 440px;
+        font-size: 30px;
+    }
+    #main-para {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:769px) {
+    /* home.html */
+    /* info */
+    .p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    /* form */
+    .wrapper p {
+        font-size: 30px;
+        width: 40%;
+    }
+    .wrapper form {
+        width: 60%;
+    }
+    input {
+        width: 300px;
+    }
+    button {
+        height: 50px;
+        width: 90px;
+    }
+    /* boxes */
+    #section-boxes {
+        width: 100%;
+    }
+    .boxes {
+        display: flex;
+        padding: 10px;
+    }
+    .symbol {
+        font-size: 20px;
+    }
+    /* about.html about us */
+    #about-us h2 {
+        line-height: 50px;
+    }
+    #about-us p {
+        font-size: 25px;
+        line-height: 40px;
+        padding: 50px;
+    }
+}
