@@ -1,6 +1,6 @@
 # Sammy's Web Design
 
-> This is a photgraphy login/ sign-up page.
+> This is a a screenshot of the home page.
 
 ![screenshot](./screenshot.png)
 
